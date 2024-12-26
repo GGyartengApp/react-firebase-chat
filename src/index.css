@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: url("/bg.jpg");
+  background-image: url("/bg1.jpg");
   display:flex;
   align-items: center;
   justify-content: center;
@@ -16,11 +16,12 @@ body{
 }
 
 .container{
-  width:90vw;
-  height:90vh;
-  background-color: rgba(17, 25, 40, 0.75);
-  border-radius: 12px;
-  backdrop-filter: blur(19px) saturate(100%);
+  width:100vw;
+  height:100vh;
+  /* border-radius: 10px; */
+  background-color:  rgba(84, 99, 127, 0.75);
+  /* border-radius: 12px; */
+  backdrop-filter: blur(1px) saturate(100%);
   border:1px solid rgba(255, 255, 255, 0.25);
   display: flex;
 }

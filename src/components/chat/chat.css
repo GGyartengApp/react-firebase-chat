@@ -63,6 +63,7 @@
         overflow: scroll;
         display:flex;
         flex-direction: column;
+        background-color: transparent;
         gap: 20px;
 
         .message{
