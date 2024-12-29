@@ -20,7 +20,9 @@ const Login = () => {
 
   const handleLogin = e =>{
     e.preventDefault()
-    toast.error("Hello");
+    const formData = new FormData();
+    const {username, password} = Object.fromEntries(formData);
+    console.log(email)
   }
 
   return (
@@ -28,7 +30,7 @@ const Login = () => {
       <div className="item">
         <h2>Welcome Back,</h2>
         <form onSubmit={handleLogin}>
-          <input type="text" name="email" placeholder="Email"/>
+          <input type="text" name="username" placeholder="Email"/>
           <input type="password" name="password" placeholder="Password"/>
           <button>Sign In</button>
         </form>
